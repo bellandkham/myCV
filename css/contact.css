@@ -1,0 +1,131 @@
+body{
+    background-color: #EFF5F5;
+}
+
+nav{
+    width: 100%;
+    float: left;
+    margin-left: 0px;
+    padding-left:0px;
+    position: relative;
+    display: inline-flex;
+   
+   
+ }
+ 
+ nav ul{
+    margin-left: 15%;
+    padding-left: 15%;
+   
+   
+ }
+ nav li{
+    list-style-type: none;
+    float: left;
+    position: relative;
+    text-align: end;
+   
+ }
+ nav a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 30px;
+    color:black;
+    text-transform:uppercase;
+    font-size: 25px;
+    font-weight: bold;
+ }
+ 
+ .menu-ind:hover, .presentation{
+    border-top: 5px solid #4C8 ;
+    background-color: rgba(64, 200, 130, 0.15);
+ }
+ .menu-exp:hover, .parcous{
+    border-top: 5px solid #4C8 ;
+    background-color: rgba(241, 211, 79, 0.15);
+ }
+ .lois:hover, .competences{
+    border-top: 5px solid #4C8 ;
+    background-color: rgba(000, 112, 192, 0.15);
+ }
+ .cont:hover, .recommandation{
+    border-top: 5px solid #4C8 ;
+    background-color: rgba(228, 77, 38, 0.15);
+ }
+ 
+ nav li:hover a{
+    padding: 15px 30px 20px 30px;
+ }
+.infoContact{
+    padding:2%;
+  width: 600px;
+  height: 300px;
+  background-color: white;
+  box-shadow: 0 0 24px 0 rgb(0 0 0 / 12%);
+}
+
+.infomail{
+    padding:2%;
+    width: 600px;
+    height: 300px;
+    background-color: white;
+    box-shadow: 0 0 24px 0 rgb(0 0 0 / 12%);
+    padding-left: 4%;
+}
+
+.infoContact:hover{
+   width: 615px;
+   height: 315px;
+}
+p{
+   font-style: italic;
+}
+.infomail:hover{
+   width: 615px;
+   height: 315px;
+}
+
+#cont{
+
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  
+}
+#mel{
+   display: flex;
+   padding-left: 12%;
+}
+#titre_mail{
+
+   text-align: center;
+}
+#btn{
+    border: none;
+    background-color: #4C8;
+    width: 405px;
+    height: 30px;
+    color: white;
+    font-weight: 20px;
+    font-size: 20px;
+}
+
+#btn:hover{
+   background-color: #0A2647;
+}
+
+input{
+    width: 400px;
+    height: 30px;
+    box-shadow: 0 0 24px 0 rgb(0 0 0 / 12%);
+    border: gray; 
+}
+#btn{
+   background-color: #4C8;
+   color: white;
+   text-align: center;
+   width: 200px;
+   height: 30px;
+}

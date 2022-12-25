@@ -1,0 +1,169 @@
+body{
+    background-color: #EFF5F5;
+}
+
+nav{
+    width: 100%;
+    float: left;
+    margin-left: 0px;
+    padding-left:0px;
+    position: relative;
+    display: inline-flex;
+   
+   
+ }
+ 
+ nav ul{
+    margin-left: 15%;
+    padding-left: 15%;
+    width: 100%;
+   
+   
+ }
+ nav li{
+    list-style-type: none;
+    float: left;
+    position: relative;
+    text-align: end;
+   
+ }
+ nav a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 30px;
+    color:black;
+    text-transform:uppercase;
+    font-size: 25px;
+    font-weight: bold;
+  
+ }
+ 
+ .menu-ind:hover, .presentation{
+    border-top: 5px solid #4C8 ;
+    background-color: rgba(64, 200, 130, 0.15);
+ }
+ .menu-exp:hover, .parcous{
+    border-top: 5px solid #4C8 ;
+    background-color: rgba(241, 211, 79, 0.15);
+ }
+ .lois:hover, .competences{
+    border-top: 5px solid #4C8 ;
+    background-color: rgba(000, 112, 192, 0.15);
+ }
+ .cont:hover, .recommandation{
+    border-top: 5px solid #4C8 ;
+    background-color: rgba(228, 77, 38, 0.15);
+ }
+ 
+ nav li:hover a{
+    padding: 15px 30px 20px 30px;
+ }
+
+
+
+ 
+.resume .resume-title {
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #050d18;
+  }
+  
+  .resume .resume-item {
+    padding: 0 0 20px 20px;
+    margin-top: -2px;
+    border-left: 2px solid #1f5297;
+    position: relative;
+  }
+  
+  .resume .resume-item h4 {
+    line-height: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #050d18;
+    margin-bottom: 10px;
+  }
+  
+  .resume .resume-item h5 {
+    font-size: 16px;
+    background: #e4edf9;
+    padding: 5px 15px;
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .resume .resume-item ul {
+    padding-left: 20px;
+  }
+  
+  .resume .resume-item ul li {
+    padding-bottom: 10px;
+  }
+  
+  .resume .resume-item:last-child {
+    padding-bottom: 0;
+  }
+  
+  .resume .resume-item::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -9px;
+    top: 0;
+    background: #fff;
+    border: 2px solid #1f5297;
+  }
+
+  #profile{
+    text-align: center;
+    padding-left: 25%;
+    padding:1%;
+    margin-top: 1%;
+    width: 300px;
+    height: 620px;
+    background-color: white;
+    box-shadow: 2 6 24px 0 rgb(0 0 0);
+  
+  }
+
+  #profi{
+    width: 200px;
+    height: auto;
+    border-radius: 100%;
+  }
+
+#chapeau{
+    width: 150px;
+    height: auto;
+
+}
+  #profi:hover{
+
+    width: 210px;
+    height: auto;
+    border-radius: 100%;
+    box-shadow: 2 6 24px 6 rgb(0 0 0);
+
+  }
+
+  .Scroll-bg{
+    padding:2%;
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 0 24px 0 rgb(0 0 0 / 12%);
+    padding-left: 4%;
+  }
+
+  .scroll-div{
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    overflow-y: scroll;
+
+  }
